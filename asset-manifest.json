@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Fast_Fingers/static/css/main.673a4992.css",
+    "main.js": "/Fast_Fingers/static/js/main.b59cb5c4.js",
+    "index.html": "/Fast_Fingers/index.html",
+    "static/media/github.svg": "/Fast_Fingers/static/media/github.81d265ee981572239066d37671b9ac84.svg",
+    "static/media/linkedIn.svg": "/Fast_Fingers/static/media/linkedIn.c2ef956c032965ca4143d28672570d58.svg",
+    "static/media/logo.svg": "/Fast_Fingers/static/media/logo.c2905b05b8f6883dcaa598e7a4ee906e.svg",
+    "main.673a4992.css.map": "/Fast_Fingers/static/css/main.673a4992.css.map",
+    "main.b59cb5c4.js.map": "/Fast_Fingers/static/js/main.b59cb5c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.673a4992.css",
+    "static/js/main.b59cb5c4.js"
+  ]
+}
