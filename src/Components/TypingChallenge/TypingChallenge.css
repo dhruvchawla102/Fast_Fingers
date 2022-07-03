@@ -1,0 +1,131 @@
+.typing-challenge {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.timer-container {
+  margin: 16px;
+  /* background: red; */
+  /* border: 2px solid red; */
+}
+
+.timer {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.timer-info {
+  margin: 0;
+  margin-top: -5px;
+  color: #dd5044;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-area-container {
+  /* background: grey; */
+  margin: 16px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-grow: 1;
+  width: 80%;
+  /* align-items: center; */
+  /* border: 2px solid red; */
+
+  /* max-height: 58.5vh; */
+}
+
+.text-area-left,
+.text-area-right {
+  display: flex;
+  width: 50%;
+  flex-grow: 1;
+  /* border: 2px solid red;  */
+  /* height: 100%; */
+}
+
+.textarea {
+  text-align: left;
+  flex-grow: 1;
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  flex-wrap: wrap;
+  line-height: 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.26);
+  overflow: scroll;
+  transition: all 0.2s;
+  border: 0;
+  font-size: 18px;
+}
+
+.textarea-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.textarea:hover {
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.26); */
+}
+
+.test-paragraph {
+  font-size: 12px;
+  /* background: #e9e7e4; */
+  background: #effffeb8;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .text-area-container {
+    flex-direction: column;
+    max-height: 60vh;
+    /* border: 2px solid red;÷ */
+  }
+  .test-paragraph{
+      border-radius: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .textarea-right{
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+  .text-area-left,
+  .text-area-right {
+    width: 100%;
+    /* flex-grow: 0.5; */
+    height: 10%;
+    /* border: 2px solid red; */
+  }
+
+  .textarea {
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .text-area-container {
+  }
+
+  .text-area-left,
+  .text-area-right {
+  }
+
+  .textarea {
+    font-size: 15px !important;
+  }
+}
